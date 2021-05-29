@@ -1,4 +1,4 @@
-LASH Analyst README
+CLASH Analyst README
 
 ## Pre-requisite
 - workable OS: Linux ubuntu 16.04 (LTS)
