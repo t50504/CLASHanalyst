@@ -3,7 +3,7 @@ CLASH Analyst README
 ## Pre-requisite
 - workable OS: Linux ubuntu 16.04 (LTS)
 - All the toolkit need to be installed
-:::info
+---
 - SRA-toolkit
 ```bash=
 wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.2/sratoolkit.2.9.2-ubuntu64.tar.gz
@@ -95,7 +95,6 @@ parallel
 ```bash=
 sudo apt-get install parallel
 `````
-:::
 ## how to quick start?
 - Download
 ```bash=
@@ -116,20 +115,3 @@ DIR="/{absolute path to CLASHanlyst folder}/"
 bash run.sh
 `````
 - Result will generated in /run_sample/{hyb, clan, pir} folder, with RNA interactions information in hyb_file_step5.csv file. 
-````
-````
-````
-````
-````
-````
-````
-````
-````
-````
-````
-````
-````
-````
-````
-````
-````
