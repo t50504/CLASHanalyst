@@ -1,9 +1,8 @@
-DIR="{absolute path to CLASHanalyst folder}/CLASHanalyst"
+DIR="{absolute path to CLASHanalyst folder}/CLASHanalyst" #etc. /home/t50504
 
-bash un_zip.sh $DIR/run_sample/ 
+bash un_zip.sh $DIR/run_sample/ #directory to inputfile including: target.zip, regulator.zip, read.zip 
 
 cd $DIR/run_sample/
-
 
 #### preprocess and build ref
 /usr/bin/time -f "	%E real,	%U user,	%S sys" -a -o $DIR/run_sample/time_log make -f $DIR/suite/bin/makefile preprocess qc=trim_galore trim=30 link=AGATCGGAAGAG len=17 slen=70 rc=None fd=None in=hyb_file.fastq
