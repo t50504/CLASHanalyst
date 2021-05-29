@@ -45,12 +45,12 @@ curl -fsSL https://github.com/FelixKrueger/TrimGalore/archive/0.6.6.tar.gz -o tr
 tar xvzf trim_galore.tar.gz
 export PATH=$PATH:/{path to program}/TrimGalore-0.6.6
 `````
-Flexbar
+- Flexbar
 ```bash=
 sudo apt install aptitude
 sudo aptitude install flexbar
 `````
-Libgtextutils
+- Libgtextutils
 ```bash=
 wget https://github.com/agordon/libgtextutils/releases/download/0.7/libgtextutils-0.7.tar.gz 
 tar -zxvf libgtextutils-0.7.tar.gz 
@@ -59,7 +59,7 @@ cd libgtextutils-0.7
 make 
 sudo make install
 `````
-Fastx
+- Fastx
 ```bash=
 wget https://github.com/agordon/fastx_toolkit/releases/download/0.0.14/fastx_toolkit-0.0.14.tar.bz2 
 tar -xjf fastx_toolkit-0.0.14.tar.bz2 
@@ -68,7 +68,7 @@ cd fastx_toolkit-0.0.14/
 make #if fail, run sudo apt-get install gcc g++ pkg-config 
 sudo make install
 `````
-pblat
+- pblat
 ```bash=
 wget https://github.com/icebert/pblat/archive/master.zip
 unzip master.zip
@@ -76,7 +76,7 @@ cd pblat-master/
 make
 export PATH=$PATH:/{path to program}/pblat-master
 `````
-blat
+- blat
 ```bash=
 wget -nc http://users.soe.ucsc.edu/~kent/src/blatSrc35.zip
 unzip blatSrc35.zip
@@ -87,11 +87,11 @@ cd blastrc
 make #if fail, run sudo apt-get install libpng-dev libssl-dev
 export PATH=${HOME}/bin/x86_64:$PATH
 `````
-blastn
+- blastn
 ```bash=
 sudo apt-get install ncbi-blast+
 `````
-parallel
+- parallel
 ```bash=
 sudo apt-get install parallel
 `````
