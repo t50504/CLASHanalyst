@@ -105,11 +105,16 @@ git clone git@github.com:t50504/CLASHanalyst.git
 cd ./CLASHanalyst/run_sample
 vim run.sh
 `````
-- In the run.sh
+- revise the working directory in run.sh
 ```bash=
-#revise first line path
-DIR="/{absolute path to CLASHanlyst folder}/"
+#revise first line
+DIR="/{absolute path to CLASHanlyst folder}/CLASHanalyst" #etc. /home/t50504/CLASHanalyst
 `````
+- check the input file directory in run.sh
+```bash=
+bash unzip.sh $DIR/run_sample/ #directory to input file including: target.zip, regulator.zip, read.zip 
+`````
+If use selfmade input files, please check the file format and directory settings. 
 - Run the sample with supplied file.
 ```bash=
 bash run.sh
