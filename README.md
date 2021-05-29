@@ -98,7 +98,7 @@ sudo apt-get install parallel
 ## how to quick start?
 - Download
 ```bash=
-git clone xxx
+git clone git@github.com:t50504/CLASHanalyst.git
 `````
 - Modify the run.sh
 ```bash=
